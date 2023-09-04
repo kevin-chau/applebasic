@@ -1,0 +1,9 @@
+0  REM  Computes Fibonacci Numbers. The highest number before overflow is FIB(182), which equals 4.85585294E+37
+10 A = 0
+20 B = 1
+30  FOR I = 1 TO 91
+40 A = A +B
+50  PRINT B
+60  PRINT A
+70 B = B +A
+80  NEXT 
